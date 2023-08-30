@@ -9,66 +9,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Script", "Script", "{CDAFF1
 		Script\DeployApi.ps1 = Script\DeployApi.ps1
 		Script\InstallLocal.ps1 = Script\InstallLocal.ps1
 		Script\SetupKeyVault.ps1 = Script\SetupKeyVault.ps1
+		Script\SetupServiceBus.ps1 = Script\SetupServiceBus.ps1
 		Script\SetupSql.ps1 = Script\SetupSql.ps1
 		Script\SetupWebApi.ps1 = Script\SetupWebApi.ps1
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentationer", "Presentationer", "{47BAEBE2-CCBE-44C3-A753-F643C4F72667}"
-	ProjectSection(SolutionItems) = preProject
-		Presentationer\Azure 1.pptx = Presentationer\Azure 1.pptx
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E6EA10CC-3886-4FD1-BD03-20FD601922EF}"
-	ProjectSection(SolutionItems) = preProject
-		.gitignore = .gitignore
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KeyVaultDemo", "KeyVaultDemo", "{D0227666-FAE5-4A8C-BBC4-8CD5EF980AA1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingKeyVault", "UsingKeyVault\UsingKeyVault.csproj", "{6035246F-8AFA-46B3-98C0-8D03A43032A4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Laboration1", "Laboration1", "{D40D0EC9-2F12-4620-825B-2C3FF1E21B69}"
-	ProjectSection(SolutionItems) = preProject
-		Lab1.md = Lab1.md
-	EndProjectSection
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherWebApi", "WeatherWebApi\WeatherWebApi.csproj", "{DF4C466D-7CB8-414B-8F79-9026F8FB1ADC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Laboration2", "Laboration2", "{17928610-BE3F-45D2-B7EA-4C498B71FD6E}"
-	ProjectSection(SolutionItems) = preProject
-		Lab2.md = Lab2.md
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceBusDemo", "ServiceBusDemo", "{81A08BCF-9675-4370-9F25-579110952E70}"
-	ProjectSection(SolutionItems) = preProject
-		Script\SetupServiceBus.ps1 = Script\SetupServiceBus.ps1
-	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBusSender", "ServiceBusSender\ServiceBusSender.csproj", "{EC51F901-3272-4AC7-B8F3-CBC74358D428}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBusListener", "ServiceBusListener\ServiceBusListener.csproj", "{C215E671-C1CF-4C05-BC32-EEC82260FB2C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AppServiceDemo", "AppServiceDemo", "{3F74D16F-13F9-4CE2-BD8C-5960DF2C51A3}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Laboration3", "Laboration3", "{DF943742-E71D-4A4E-9063-8C02160BEFC6}"
-	ProjectSection(SolutionItems) = preProject
-		Lab3.md = Lab3.md
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Laboration4", "Laboration4", "{8ED773A4-34B1-40C8-A1DA-3CBE0731A6CE}"
-	ProjectSection(SolutionItems) = preProject
-		Lab4.md = Lab4.md
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Laboration5", "Laboration5", "{B0527D0F-460C-42B4-9DF7-EB53976F7C7A}"
-	ProjectSection(SolutionItems) = preProject
-		Lab5.md = Lab5.md
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Laboration6", "Laboration6", "{7333C44A-E8AF-4896-A920-931D24D99056}"
-	ProjectSection(SolutionItems) = preProject
-		Lab6.md = Lab6.md
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
