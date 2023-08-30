@@ -4,11 +4,13 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 # User-specific files
+Deployment.targets
+*.xlsx
 .[Aa]zure/
-[Pp]roperties/[Ss]ervice[Dd]ependencies/
+WeatherWebApi/Properties/ServiceDependencies/
+WeatherWebApi/[Pp]roperties/[Ss]ervice[Dd]ependencies/
 Lab*.md
 *.pptx
-*.xslx
 *.rsuser
 *.suo
 *.user
